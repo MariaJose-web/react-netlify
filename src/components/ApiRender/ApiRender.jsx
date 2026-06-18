@@ -11,7 +11,7 @@ const ApiRender = function () {
             setDatosApi(datos);
         }
         obtenerDatos();
-    });
+    }, []);
 
     return (
         <>
